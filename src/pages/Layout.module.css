@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: inherit;
+    top: 0px;
+    min-height: 48px;
+    border-bottom: 1px solid;
+  }
+  /*  Style for the div which will contain the outlet */
+  .content {
+    margin-top: 48px;
+    min-height: calc(100vh - 48px);
+    margin-left: 128px;
+    background-color: inherit;
+  }
+  
+  .footer {
+    background-color: grey;
+  }
+  
+  .aside {
+    background-color: inherit;
+    height: calc(100vh - 48px);
+    position: fixed;
+    top: 48px;
+    width: 120px;
+    text-align: center;
+    border-right: 1px solid;
+  }
+  
+  .aside > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
